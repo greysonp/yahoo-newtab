@@ -1,0 +1,63 @@
+body, html {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafc;
+}
+
+.search-container {
+    position: relative;
+    margin: auto;
+    width: 620px; /* Same width as the search bar on the default google one */
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.search-container img {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: inherit;
+    padding: 5px 10px;
+    margin-top: 25px;
+}
+
+.menu-bar {
+    background-color: #2d1152;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.menu-bar a  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-bar a:hover  {
+    text-decoration: underline;
+}
+
+.menu-bar li {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 3px 0 2px 0;
+}
+
+.icon {
+    height: 13px;
+    width: 13px;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
